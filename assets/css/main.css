@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page>.el-col {
+    height: 100%;
+    display: inline-block;
+}
+
+.grid-content {
+    height: 100%;
+}
+
+.bg-dark {
+    background-color: #495060;
+}
+
+.el-menu {
+    border-right: none !important;
+}
+
+.el-submenu .el-menu-item {
+    min-width: 100px !important;
+}
+
+.h {
+    height: 100%;
+}
+
+.t-r {
+    text-align: right !important;
+}
