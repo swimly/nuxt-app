@@ -1,22 +1,15 @@
-# app
+# 后台管理系统模板
 
-> Nuxt.js project
+### 模板一
 
-## Build Setup
+<img src="./screen/1.gif" alt="">
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+### 模板二
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+<img src="./screen/2.gif" alt="">
 
-# build for production and launch server
-$ npm run build
-$ npm start
+### 模板三
 
-# generate static project
-$ npm run generate
-```
+<img src="./screen/3.gif" alt="">
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+以上均为同一套代码，只需修改配置文件即可随意修改布局，更多功能敬请期待！
