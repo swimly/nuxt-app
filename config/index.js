@@ -2,11 +2,13 @@ export const layout = 'grid' // 布局 aside 、 head
 export const menu = [{
   text: '首页',
   icon: '',
-  url: '/'
+  url: '/',
+  children: null
 }, {
   text: '用户管理',
   icon: '',
-  url: '/user'
+  url: '/user',
+  children: null
 }, {
   text: '统计',
   icon: '',

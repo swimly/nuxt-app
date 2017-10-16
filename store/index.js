@@ -17,6 +17,5 @@ export const mutations = {
   },
   setChildren (state, props) {
     state.currentChildren = props
-    console.log(props)
   }
 }

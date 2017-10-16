@@ -25,7 +25,7 @@
   </div>
 </template>
 <script>
-import menu from '../components/menu'
+import menus from '../components/menu'
 import face from '../components/face'
 import headbar from '../components/headbar'
 import logo from '../components/Logo'
@@ -33,7 +33,7 @@ import aside from '../components/aside'
 import { mapMutations } from 'vuex'
 export default {
   components: {
-    'my-menu': menu,
+    'my-menu': menus,
     'my-face': face,
     'my-headbar': headbar,
     'my-logo': logo,
