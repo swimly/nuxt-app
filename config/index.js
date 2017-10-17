@@ -1,4 +1,4 @@
-export const layout = 'grid' // 布局 aside 、 head
+export const layout = 'head' // 布局 aside 、 head
 export const menu = [{
   text: '首页',
   icon: '',

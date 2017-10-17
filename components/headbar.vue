@@ -1,9 +1,17 @@
 <template>
   <div class="h">
+    <el-popover
+      ref="popover2"
+      placement="bottom"
+      title="标题"
+      width="200"
+      trigger="click"
+      content="这是一段内容,这是一段内容,这是一段内容,这是一段内容。">
+    </el-popover>
     <el-row class="head">
       <el-col :span="12" v-if="text">{{text}}</el-col>
       <el-col :span="text?12:24" class="t-r">
-        <i class="el-icon-menu" @click="toggleappBox"></i>
+        <i class="el-icon-menu" v-popover:popover2></i>
         <i class="el-icon-message"></i>
         <i class="el-icon-setting"></i>
       </el-col>

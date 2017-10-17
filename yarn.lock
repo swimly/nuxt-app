@@ -5177,6 +5177,10 @@ vue-loader@^13.0.4:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
+vue-localstorage@^0.5.0:
+  version "0.5.0"
+  resolved "http://registry.npm.taobao.org/vue-localstorage/download/vue-localstorage-0.5.0.tgz#e2e46fc6241b61036cb6059b14ed4399dee35eca"
+
 vue-meta@^1.1.0:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/vue-meta/download/vue-meta-1.2.0.tgz#f4cedccaae566ea0a27f052820dc076510d0080c"

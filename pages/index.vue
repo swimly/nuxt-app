@@ -12,7 +12,15 @@
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
         <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
       </div>
-      <el-button>默认按钮</el-button>
+      <el-popover
+        ref="popover2"
+        placement="bottom"
+        title="标题"
+        width="200"
+        trigger="click"
+        content="这是一段内容,这是一段内容,这是一段内容,这是一段内容。">
+      </el-popover>
+      <el-button v-popover:popover2>默认按钮</el-button>
     </div>
   </section>
 </template>

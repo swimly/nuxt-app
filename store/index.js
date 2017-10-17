@@ -2,7 +2,8 @@ export const state = () => ({
   isCollapse: true,
   aside: null,
   currentParent: '/',
-  currentChildren: '/'
+  currentChildren: '/',
+  grid: 'aside'
 })
 
 export const mutations = {

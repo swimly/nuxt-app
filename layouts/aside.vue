@@ -3,7 +3,7 @@
     <el-col class="aside">
       <div class="grid-content bg-dark">
         <div class="user-head">
-          <my-face/>
+          <my-face position="right"/>
         </div>
         <div class="scroll">
           <my-menu mode="vertical"  :collapse="isCollapse"/>
