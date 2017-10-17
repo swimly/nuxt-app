@@ -116,3 +116,6 @@ body {
     font-size: 1.4rem;
     padding: 0.7rem 1rem;
 }
+.el-menu--horizontal .el-menu-item{
+  transition:0.3s;
+}

@@ -27,7 +27,6 @@
 
 <script>
 export default {
-  layout: 'full',
   head () {
     return {
       title: '用户登录'

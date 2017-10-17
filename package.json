@@ -15,6 +15,7 @@
   "dependencies": {
     "element-ui": "next",
     "nuxt": "^1.0.0-rc11",
+    "vue-echarts": "^2.4.1",
     "vue-localstorage": "^0.5.0"
   },
   "devDependencies": {
