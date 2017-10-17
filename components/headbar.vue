@@ -67,10 +67,10 @@
 }
 
 .head i {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #8492A6;
   cursor: pointer;
-  margin-left:1rem;
+  margin-left:1.5rem;
 }
 </style>
 

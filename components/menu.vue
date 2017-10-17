@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-menu default-active="/" class="el-menu-vertical-demo" background-color="#495060" text-color="#fff" active-text-color="#ffd04b" :collapse="collapse" :mode="mode" v-if="!hideSub">
+    <el-menu default-active="/" class="el-menu-vertical-demo" background-color="#495060" text-color="#fff" active-text-color="#ffd04b" :collapse="collapse" :mode="mode" v-if="!hideSub" @select="jump">
       <el-menu-item :index="item.url" v-for="(item, index) in menu" v-if="!item.children" :key="index">
         <i class="el-icon-menu"></i>
         <span slot="title">{{item.text}}</span>
@@ -64,9 +64,12 @@
       ...mapMutations({
         setAside: 'setAside'
       }),
+      jump (route) {
+        this.$router.replace(route)
+      },
       showSub (route) {
         this.menu.forEach((item, index) => {
-          this.$router.replace(route)
+          this.jump(route)
           if (item.url === route) {
             this.$store.commit('setAside', item.children)
             this.$store.commit('setChildren', '/')

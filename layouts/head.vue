@@ -62,6 +62,8 @@ export default {
 .layout-head .content {
   height: 100%;
   overflow: auto;
+  padding:0;
+  width:100%;
 }
 
 .head-wrap .el-row {
