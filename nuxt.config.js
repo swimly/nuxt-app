@@ -19,7 +19,10 @@ module.exports = {
   router: {
     base: '/nuxtApp/dist/'
   },
-  loading: { color: '#3B8070' },
+  loading: {
+    color: '#FA5555',
+    height: '2px'
+  },
   /*
   ** Build configuration
   */

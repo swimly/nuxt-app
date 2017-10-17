@@ -47,3 +47,72 @@ body {
 .t-r {
     text-align: right !important;
 }
+
+
+input:focus {
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.row {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.col {
+    display: table-cell;
+}
+
+.v-m {
+    vertical-align: middle;
+}
+
+.mid-layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w {
+    width: 100%;
+}
+
+.h {
+    height: 100%;
+}
+
+.t-r {
+    text-align: right;
+}
+
+.t-l {
+    text-align: center;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form input[type=text],
+.form input[type=password] {
+    border: 1px solid #E3E4E8;
+    width: 100%;
+    background: #fff;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    padding: 0.7rem 1rem;
+}
